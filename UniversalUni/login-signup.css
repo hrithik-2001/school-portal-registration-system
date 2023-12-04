@@ -1,0 +1,148 @@
+* {
+    font-family: Helvetica, Georgia, sans-serif, Arial;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /*background-color: #212227; */
+    background: linear-gradient(to bottom, #F7FBFC, #F7FBFC, #D6E6F2, #B9D7EA, #769FCD);
+    /*background: linear-gradient(to bottom, #272829, #272829, #61677A, #D8D9DA, #FFF6E0);*/
+    background-repeat: no-repeat;
+}
+
+#banner {
+    background-color: #20262E;
+    padding: 21px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 100px;
+    width: 150pt; 
+    height: 30pt;
+}
+
+
+
+.signup, .login
+{
+    height: 500px;
+    width: 27%;
+    background-color: #20262E;
+    border: 5px solid #20262E;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.login_fieldset
+{
+    
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.signup_fieldset
+{
+    
+    border: none;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+input[type=text], input[type=password], input[type=email]
+{
+    padding: 20px 54px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    
+    /* border-radius: 50px; 
+    border: 0 solid transparent; */
+    border: 3px solid transparent;
+    border-bottom: 3px solid white;
+    color: #79DAE9;
+    background-color: transparent;
+    outline: none;
+    
+    
+}
+
+
+
+input[type=submit]
+{
+    padding: 20px 36px;
+    border-radius: 50px;
+    border: 0 solid transparent;
+    background-color: #79DAE9;
+    color: #121315;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover
+{
+    border-bottom: 3px solid #79DAE9;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    cursor: pointer;
+}
+
+h3{
+    color: #20262E;
+    font-weight: bold;
+    margin-left: 39px;
+}
+
+#link
+{
+    color: #79DAE9;
+    
+}
+
+#link, #link:focus, #link:active, #link:visited {
+    text-decoration: none;
+    color: royalblue;
+   
+}
+
+#link:hover
+{
+    text-decoration: none;
+    color: #79DAE9;
+}
+
+.already_have_account
+{
+    text-align: center;
+    position: relative;
+    margin-top: 3px;
+    color: #D6E5FA;
+}
+
+.dont_have_account
+{
+    text-align: center;
+    position: relative;
+    top: 90px;
+    color: #D6E5FA;
+}
+
+h1 {
+
+    color: white;
+}
+
+
+

@@ -1,0 +1,110 @@
+* {
+    font-family: Helvetica, Georgia, sans-serif, Arial;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /*background-color: #212227; */
+    background: linear-gradient(to bottom, #F7FBFC, #F7FBFC, #D6E6F2, #B9D7EA, #769FCD);
+    /*background: linear-gradient(to bottom, #272829, #272829, #61677A, #D8D9DA, #FFF6E0);*/
+    background-repeat: no-repeat;
+}
+
+#banner {
+    background-color: #20262E;
+    padding: 21px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    margin-right: 100px;
+    width: 150pt; 
+    height: 30pt;
+}
+
+#profile-link {
+    margin-left: 900px;
+    font-weight: lighter;
+    font-size: 27px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 21px;
+
+}
+
+#login-signup-link  {
+    padding-left: 830px;
+    font-weight: bold;
+}
+
+#login-signup-link a, #profile-link {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 21px;
+    
+}
+
+#login-signup-link a:hover, #profile-link:hover {
+    text-decoration: none;
+    color: #5FBDFF;
+    
+}
+
+#login-link, #profile-link {
+
+    color: white;
+    
+    
+}
+
+#signup-link{
+    color: #20262E;
+    padding: 12px;
+    background-color: white;
+    border-radius: 21px;
+}
+
+#signup-link:hover {
+   background-color: #DDE6ED;
+}
+
+#choose-class-label{
+    padding-bottom: 30px; 
+    font-size: 30px;
+    font-weight: 270px;
+}
+
+#search-for-class {
+    text-align: center;
+    padding-top: 72px; 
+}
+
+#search-bar {
+    padding: 21px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 300px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+#grad-cap-img
+{
+    text-align: center;
+    height: 100px;
+    padding-bottom: 10px;
+    
+}
+
+#logout_link{
+   
+    margin-left: 16px;
+}
+
+

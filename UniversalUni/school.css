@@ -1,0 +1,42 @@
+#manhattan_college_img {
+    width: 50%;
+    max-height: 50%; 
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    border: 2px solid black; 
+    
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    height: 72px;
+    width: 120px;
+    margin: 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #F7FBFC;
+    color: black;
+    border: none;
+    
+    cursor: pointer;
+}
+
+button.blank {
+    background-color: transparent;
+    color: transparent;
+    cursor: default; 
+    border: none;
+}
+
+button.button:hover {
+    border: 2px solid #161A30;
+    background-color: rgba(255, 255, 255, 0.6);}

@@ -43,7 +43,6 @@ class Student {
     constructor(name, major) {
         this.name = name;
         this.major = major;
-        //this.year = year;
         this.classList = [];
     }
 
@@ -54,10 +53,6 @@ class Student {
     getMajor() {
         return this.major;
     }
-
-    /*getYear() {
-        return this.year;
-    }*/
 
     getClassList() {
         return this.classList;
@@ -70,10 +65,6 @@ class Student {
     setMajor(major) {
         this.major = major;
     }
-
-    /*setYear(year) {
-        this.year = year;
-    }*/
 
     addCourse(course) {
         this.classList.push(course);
@@ -206,4 +197,4 @@ let student14 = new Student('Ryan Martinez', 'Economics');
 student14.enroll(123456);
 
 
-
+module.exports = { Course, Student, courses };
